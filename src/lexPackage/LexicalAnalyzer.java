@@ -58,7 +58,7 @@ public class LexicalAnalyzer
 		token_dict[RIGHT_PAREN] = "RIGHT_PAREN";
 		token_dict[END_OF_FILE] = "END_OF_FILE";
 		
-		file = new FileReader("/Users/yeonchoi/Documents/School/ProgrammingLang/PLJava/LexicalAnalyzer2/src/lexPackage/lexInput");
+		file = new FileReader("/Users/yeonchoi/Documents/School/ProgrammingLang/PLJava/LexicalAnalyzer2/src/lexPackage/lexInput.txt");
 		
 		
 		reader = new BufferedReader(file);
